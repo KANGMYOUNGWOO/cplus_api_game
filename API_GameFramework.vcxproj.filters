@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\0Entry">
+      <UniqueIdentifier>{d7c26d79-201a-4961-a867-27f71ca67aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1GameInstance">
+      <UniqueIdentifier>{160c254b-7bcf-4268-ac4c-ba82d623c497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3Abstract">
+      <UniqueIdentifier>{3ac2cc5d-2698-47bc-b6b5-0236f362987c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3Abstract\Scene">
+      <UniqueIdentifier>{31a8e93f-617d-48bb-9176-1eb78f9ac777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3Abstract\GameObject">
+      <UniqueIdentifier>{7a65f6ea-2af0-4eec-b094-6dbb71a527e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4Bitmap">
+      <UniqueIdentifier>{02f10cc9-cac9-400d-96f6-4af948ab21d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game">
+      <UniqueIdentifier>{21add84a-4330-4aea-81ba-78e84ec57957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Scene">
+      <UniqueIdentifier>{bf75aa7c-4210-4965-9366-91d44ca89166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Object">
+      <UniqueIdentifier>{c6837e07-e505-4553-85fc-6c983db5090d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2Manager">
+      <UniqueIdentifier>{c49acd07-9902-4d9b-9083-36d44553d2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2Manager\SceneManager">
+      <UniqueIdentifier>{2955c850-e229-4160-af5f-0a8a46cd062e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2Manager\ManagerBase">
+      <UniqueIdentifier>{7c925695-2c72-4a48-b197-9b3c3438c601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Object\GameBackGround">
+      <UniqueIdentifier>{06ac6bea-5c6d-49ee-9360-7424e91b743a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Object\MainBackGround">
+      <UniqueIdentifier>{1e8c7618-752b-416f-b970-c64768de0bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Scene\MainScene">
+      <UniqueIdentifier>{5e2abf36-1a8a-4923-9380-09777a315131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Scene\GameScene">
+      <UniqueIdentifier>{b2db2e8c-2276-49d4-85d9-f3d2cf91b405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Object\Player">
+      <UniqueIdentifier>{6641baeb-c9c4-44a0-8c10-a97028ea0819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util">
+      <UniqueIdentifier>{912e8cbb-d7cf-416e-a4ed-35cb4c94b182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Object\Enemy">
+      <UniqueIdentifier>{ce471ed6-c17d-4e1d-8d09-49d6218aa06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Object\IceCream">
+      <UniqueIdentifier>{47cca3fa-3471-4949-af53-4e56594c539e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Object\Spawner">
+      <UniqueIdentifier>{560d9dec-672c-4474-bb92-f36f4b61274f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5Game\Object\Papaya">
+      <UniqueIdentifier>{02a776bc-e56e-4cb2-8597-a5392d4662ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util\Camera">
+      <UniqueIdentifier>{5ab04245-5b56-4a16-9f0b-be6fe13ad66d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\0Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInstance.cpp">
+      <Filter>소스 파일\1GameInstance</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\3Abstract\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\3Abstract\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>소스 파일\4Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\2Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerClassBase.cpp">
+      <Filter>소스 파일\2Manager\ManagerBase</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBackGround.cpp">
+      <Filter>소스 파일\5Game\Object\GameBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MainBackGround.cpp">
+      <Filter>소스 파일\5Game\Object\MainBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>소스 파일\5Game\Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\5Game\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\5Game\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>소스 파일\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일\5Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="IceCream.cpp">
+      <Filter>소스 파일\5Game\Object\IceCream</Filter>
+    </ClCompile>
+    <ClCompile Include="_Spawner.cpp">
+      <Filter>소스 파일\5Game\Object\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="papaya.cpp">
+      <Filter>소스 파일\5Game\Object\Papaya</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeSpawner.cpp">
+      <Filter>소스 파일\5Game\Object\Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\Util\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameInstance.h">
+      <Filter>소스 파일\1GameInstance</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\3Abstract\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\3Abstract\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>소스 파일\4Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\2Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerClassBase.h">
+      <Filter>소스 파일\2Manager\ManagerBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBackGround.h">
+      <Filter>소스 파일\5Game\Object\GameBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MainBackGround.h">
+      <Filter>소스 파일\5Game\Object\MainBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>소스 파일\5Game\Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\5Game\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\5Game\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>소스 파일\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>소스 파일\5Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="IceCream.h">
+      <Filter>소스 파일\5Game\Object\IceCream</Filter>
+    </ClInclude>
+    <ClInclude Include="_Spawner.h">
+      <Filter>소스 파일\5Game\Object\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="papaya.h">
+      <Filter>소스 파일\5Game\Object\Papaya</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeSpawner.h">
+      <Filter>소스 파일\5Game\Object\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\Util\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
